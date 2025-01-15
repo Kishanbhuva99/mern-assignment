@@ -1,0 +1,58 @@
+<!-- Create a product catalog table that includes the following columns: 
+• Product Name 
+• Product Image (use placeholder image URLs) 
+• Price 
+• Description 
+• Availability (in stock, out of stock) 
+Additional Requirements: 
+• Use thead for the table header. 
+• Add a border and some basic styling using inline CSS. 
+• Use colspan or rowspan to merge cells where applicable. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+</head>
+<body>
+    <table style="border: 1px solid; border-collapse: collapse; width: 100%;">
+        <thead>
+          <tr>
+            <th>Product Name</th>
+            <th style="border: 1px solid; padding: 8px;">Product Image</th>
+            <th style="border: 1px solid; padding: 8px;">Price</th>
+            <th style="border: 1px solid; padding: 8px;">Description</th>
+            <th style="border: 1px solid; padding: 8px;">Availability</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="border: 1px solid; padding: 8px;">Toyota Supra 09</td>
+            <td style="border: 1px solid; padding: 8px;">
+              <img src="https://th.bing.com/th/id/R.efff3c9b7795c6307f01051a6e1216d8?rik=fQjjVjRCx36aYw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fLGmqn4K.jpg&ehk=%2bu8mxUqKZvnvARAvx%2bxVHq0KvL6%2fden4hLY7kRFrCSY%3d&risl=&pid=ImgRaw&r=0" style="width: 200px; height: 100px;" alt="Product 1">
+            </td>
+            <td style="border: 1px solid; padding: 8px;">10,000,000</td>
+            <td style="border: 1px solid; padding: 8px;" rowspan="2">This are the Supra models of toyota brand in variation of 1999 orignal model and 2025 upgraded model. </td>
+            <td style="border: 1px solid; padding: 8px;">In stock</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid; padding: 8px;">Toyota Supra 2025</td>
+            <td style="border: 1px solid; padding: 8px;">
+              <img src="https://tse2.mm.bing.net/th?id=OIP.2Qo8NouMPflRZ7DGtYaYjgHaE6&rs=1&pid=ImgDetMain" style="width: 200px; height: 100px;" alt="Product 2">
+            </td>
+            <td style="border: 1px solid; padding: 8px;">20,000,000</td>
+            <td style="border: 1px solid; padding: 8px;">Out of stock</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid; padding: 8px;" colspan="2">6 Tyers set high grip Toyota</td>
+            <td style="border: 1px solid; padding: 8px;">30,00,000</td>
+            <td style="border: 1px solid; padding: 8px;">This is 6 tyers set which has great durability and high grips in slipprey roads. also avialable in 2 colors white and black.</td>
+            <td style="border: 1px solid; padding: 8px;">In stock</td>
+          </tr>
+        </tbody>
+      </table>
+      
+</body>
+</html>

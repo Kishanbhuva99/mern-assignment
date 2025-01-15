@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGE Slider</title>
+    <style>
+        body
+        {
+            background-color: #000a1f;
+        }
+        .container
+        {
+            margin: 100px 0 0 200px;
+            width: 70%;
+            height: 450px;
+            display: flex;
+            justify-content: center;
+             gap: 10px;
+        }
+        .container img
+        {
+            width: 10%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 2px solid rgba(255, 255, 255, 0.6);
+            /* transition: all ease-in-out 0.5s; */
+            transition: all 800ms;
+        }
+        .container img:hover
+        {
+            width: 70%;
+        }
+        /* THIS IS TO SHOW IMAGE UP-DOWN */
+        .card:nth-child(odd)
+        {
+            translate: 0 -20px;
+        }
+        .card:nth-child(even)
+        {
+            translate: 0 20px;
+        }
+
+        /* WHEN YOU HOVER ONE IMAGE THIS IS CHANGE COLOR TO GRAY OF OTHER IMAGES*/
+        .container:hover > .card:not(:hover){
+            filter: grayscale(100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="card" src="https://tsnim.com/wp-content/uploads/2024/01/4K-Beautiful-Desktop-Wallpaper-Colorful-Nature-Sunset-Landscape-Free-Download-2048x1152.jpg" alt="">
+        <img class="card" src="https://static.vecteezy.com/system/resources/previews/017/125/591/original/outer-space-background-with-planets-and-stars-free-vector.jpg" alt="">
+        <img class="card" src="https://images5.alphacoders.com/105/1051727.jpg" alt="">
+        <img class="card" src="https://wallpapercave.com/wp/wp6136729.jpg" alt="">
+        <img class="card" src="https://wallpaperaccess.com/full/19084.jpg" alt="">
+        <img class="card" src="https://cdna.artstation.com/p/assets/images/images/058/546/622/large/artspree-landscape-100.jpg?1674425331" alt="">
+    </div>
+</body>
+</html>
