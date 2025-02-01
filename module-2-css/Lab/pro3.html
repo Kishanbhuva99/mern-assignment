@@ -1,0 +1,123 @@
+<!-- Task: Create a simple webpage layout using Flexbox. The layout should include: 
+• A header. 
+• A sidebar on the left. 
+• A main content area in the center. 
+• A footer. 
+Additional Requirements: 
+• Use Flexbox to position and align the elements. 
+• Apply different justify-content and align-items properties to observe their effects. 
+• Ensure the layout is responsive, adjusting for smaller screens.  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3 </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            display: flex;
+            justify-content: center;
+        }
+        ul{
+            background: gray;
+            /* color: white; */
+            font-weight: 700;
+            width: 25vw;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 17px;
+            text-align: center;
+        }
+
+        li {
+            list-style: none;
+            display: inline-block;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        main {
+            display: flex;
+        }
+        .maincon
+        {
+            width: 100vw;
+            border: 1px solid cyan;
+            margin: 0px 10px;
+            padding: 5px;
+        }
+        
+        .lside{
+            
+            border: 1px solid coral;
+            width: 25vw;
+            height: 80vh;
+            margin: 0px 10px;
+            padding: 5px;
+        }
+        
+        footer {
+            border: 1px solid #06808d;
+            margin: 10px;
+            display: flex;
+            height: 6vh;   
+            justify-content: center;
+            align-items: center;
+        }
+        .header a
+        {
+            text-decoration: none;
+            color: black;
+        }
+        .header li:hover
+        {
+            background-color: black;
+            color: white;
+            font-weight: 700;
+            
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+            <ul>
+                <a href="/"><li>HOME</li></a>
+                <a href="/"><li>PRODUCTS</li></a>
+                <a href="/"><li>CONTACT US</li></a>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+            <div class="lside">
+                <P>this is sidebar of my website</P>
+                <aside>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo harum quisquam et quaerat nihil
+                    numquam molestias consectetur voluptates, sunt ipsam totam voluptas. Quaerat, asperiores illum.
+                </aside>
+            </div>
+        
+
+        <div class="maincon">
+            <p>this is main content area</p>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <p>this is footer area</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

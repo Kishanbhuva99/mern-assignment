@@ -27,9 +27,19 @@
             color: #525255;
             font-weight: 500;
             font-size: 16px;
+            display: inline-block;
             margin: 0;
             margin-top: 10px;
             margin-bottom: 20px;
+        }
+        hr
+        {
+            color: #383838;
+            width: 120px;
+            display: inline-block;
+            margin: 10px;
+            border: 1px solid;
+            
         }
         #main
         {
@@ -105,14 +115,16 @@
             <input class="in" type="text" placeholder="Phone number, username, or email" required><br>
             <input class="in" type="password" placeholder="Password" required ><br>
             <input class="login" type="submit" value="Log in"><br>
-            <p>------------------------- OR -------------------------</p>
+            <hr><p>OR</p><hr>
+            <div>
             <a class="links" href="https://www.facebook.com/"><span><ion-icon name="logo-facebook"></ion-icon></span> Log in with Facebook</a><br><br>
             <a class="frg" href="/">Forgot password?</a>
+        </div>
         </form>
     </div>
     <div id="main2">
         <label>Don't Have an account?</label>
-        <a style="margin-left: 5px;" class="links" href="/insta_sign_up.html">Sign Up</a>
+        <a style="margin-left: 5px;" class="links" href="/self-exercise/insta_sign_up.html">Sign Up</a>
     </div>
 </body>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>

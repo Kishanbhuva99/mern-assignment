@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(https://static.vecteezy.com/system/resources/previews/011/509/950/non_2x/purple-background-design-for-website-backdrop-flyer-banner-design-promotion-sales-promotion-and-business-presentation-free-vector.jpg);
+    background-size: cover;
+}
+
+.main {
+    border: 5px solid #fff;
+    width: 30vw;
+    height: 75vh;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(150, 70, 152);
+    /* background-color: rgb(253, 79, 114); */
+    text-align: center;
+}
+
+.head {
+    color: white;
+    padding: 5px;
+}
+
+.head h2 {
+    /* margin-top: 50px;
+    margin-bottom: 20px; */
+    margin: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.head p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 30px;
+    font-size: 18px;
+}
+
+
+.in {
+    text-indent: 5px;
+    width: 300px;
+    height: 35px;
+    padding: 5px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}   
+
+.in:focus {
+    outline: none;
+}
+
+.in::placeholder {
+    color: #fff;
+}
+
+textarea {
+    background: transparent;
+    width: 300px;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid white;
+    margin: 20px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /* margin-bottom: 60px; */
+
+}
+
+textarea::placeholder {
+    color: #fff;
+}
+
+textarea:focus {
+    outline: none;
+}
+#btn
+{
+    width: 300px;
+    height: 35px;
+    margin: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background: #6455a5; */
+    /* background: transparent; */
+    /* backdrop-filter: blur(8px); */
+}
+#btn:hover{
+    background: #ad9be0;
+    box-shadow: 0 0 5px #ad9be0, 0 0 25px #ad9be0, 0 0 50px #ad9be0 , 0 0 200px ;
+    color: #e0dede;
+
+}

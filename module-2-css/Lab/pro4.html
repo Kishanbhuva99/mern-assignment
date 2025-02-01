@@ -1,0 +1,245 @@
+<!-- Create a 3x3 grid of product cards using CSS Grid. Each card should contain:
+• A product image.
+• A product title.
+• A price.
+Additional Requirements:
+• Use grid-template-columnsto create the grid layout.
+• Use grid-gapto add spacing between the grid items.
+• Apply hover effects to each card for better interactivity. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+    <style>
+        *
+    {
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    body
+    {
+        background: #e0dede;
+        
+    }
+    .container
+    {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        gap: 10px;
+        
+    }
+    /* .card1
+    {
+        grid-row: 2/3;
+        grid-column: 2/3;
+    } */
+    .card
+    {
+        width: 350px;
+        height: 520px;
+        background: #ececec;
+        margin: auto;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        padding: 5px;
+    }
+    .card:hover
+    {
+        box-shadow: 0px 0 50px black;
+        border: none;
+    }
+    
+    .img img{
+        border: 2px solid black;
+        width: 300px;
+        height: 150px;
+        /* border-radius: 50%; */
+        margin: 10px;
+    }
+    .nm > h2
+    {
+        margin: 5px;
+        background: #9bd4cd;
+        border: 5px solid #06808d;
+        padding: 5px;
+        border-radius: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-transform: uppercase;
+    }
+    .nm label
+    {
+        display: flex;
+        padding: 10px;
+        font-weight: 700;
+        font-size: 20px ;
+        border-bottom: 1px solid;
+        box-sizing: content-box;
+    }
+    .nm>p
+    {
+        padding: 10px;
+     text-align: justify;   
+    }
+    #btn>button
+    {
+        margin-top: 10px;
+        width: 200px;
+        height: 40px;
+        padding: 5px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        background: #9bd4cd;
+        color: #06808d;
+        border: none;
+        font-weight: 700;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    #btn>button:hover
+    {
+        background-color: #279ea4;
+        color: #ceece4  ;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card card1">
+            <div class="img">
+                <img src="https://m.economictimes.com/thumb/msid-107267329,width-1200,height-900,resizemode-4,imgsize-17396/samsung-crystal-vision-4k-tv.jpg" alt="product img">
+            </div>
+            <div class="nm">
+                <h2>Samsung TV 1</h2>
+                <label for="">Product Details</label>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit est adipisci iste accusamus voluptate nostrum ullam facilis? Itaque, accusantium quam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, voluptatem eos fugit, alias ipsum tempora cupiditate omnis quisquam minima sunt vel, fuga voluptatum?</p>
+                <h3>Price.:40,000/- </h3>
+            </div>
+            <div id="btn">
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img">
+                <img src="https://m.economictimes.com/thumb/msid-107267329,width-1200,height-900,resizemode-4,imgsize-17396/samsung-crystal-vision-4k-tv.jpg" alt="product img">
+            </div>
+            <div class="nm">
+                <h2>Samsung TV 2</h2>
+                <label for="">Product Details</label>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit est adipisci iste accusamus voluptate nostrum ullam facilis? Itaque, accusantium quam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, voluptatem eos fugit, alias ipsum tempora cupiditate omnis quisquam minima sunt vel, fuga voluptatum?</p>
+                <h3>Price.:40,000/- </h3>
+            </div>
+            <div id="btn">
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img">
+                <img src="https://m.economictimes.com/thumb/msid-107267329,width-1200,height-900,resizemode-4,imgsize-17396/samsung-crystal-vision-4k-tv.jpg" alt="product img">
+            </div>
+            <div class="nm">
+                <h2>Samsung TV 3</h2>
+                <label for="">Product Details</label>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit est adipisci iste accusamus voluptate nostrum ullam facilis? Itaque, accusantium quam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, voluptatem eos fugit, alias ipsum tempora cupiditate omnis quisquam minima sunt vel, fuga voluptatum?</p>
+                <h3>Price.:40,000/- </h3>
+            </div>
+            <div id="btn">
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img">
+                <img src="https://m.economictimes.com/thumb/msid-107267329,width-1200,height-900,resizemode-4,imgsize-17396/samsung-crystal-vision-4k-tv.jpg" alt="product img">
+            </div>
+            <div class="nm">
+                <h2>Samsung TV 4</h2>
+                <label for="">Product Details</label>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit est adipisci iste accusamus voluptate nostrum ullam facilis? Itaque, accusantium quam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, voluptatem eos fugit, alias ipsum tempora cupiditate omnis quisquam minima sunt vel, fuga voluptatum?</p>
+                <h3>Price.:40,000/- </h3>
+            </div>
+            <div id="btn">
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img">
+                <img src="https://m.economictimes.com/thumb/msid-107267329,width-1200,height-900,resizemode-4,imgsize-17396/samsung-crystal-vision-4k-tv.jpg" alt="product img">
+            </div>
+            <div class="nm">
+                <h2>Samsung TV 5</h2>
+                <label for="">Product Details</label>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit est adipisci iste accusamus voluptate nostrum ullam facilis? Itaque, accusantium quam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, voluptatem eos fugit, alias ipsum tempora cupiditate omnis quisquam minima sunt vel, fuga voluptatum?</p>
+                <h3>Price.:40,000/- </h3>
+            </div>
+            <div id="btn">
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img">
+                <img src="https://m.economictimes.com/thumb/msid-107267329,width-1200,height-900,resizemode-4,imgsize-17396/samsung-crystal-vision-4k-tv.jpg" alt="product img">
+            </div>
+            <div class="nm">
+                <h2>Samsung TV 6</h2>
+                <label for="">Product Details</label>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit est adipisci iste accusamus voluptate nostrum ullam facilis? Itaque, accusantium quam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, voluptatem eos fugit, alias ipsum tempora cupiditate omnis quisquam minima sunt vel, fuga voluptatum?</p>
+                <h3>Price.:40,000/- </h3>
+            </div>
+            <div id="btn">
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img">
+                <img src="https://m.economictimes.com/thumb/msid-107267329,width-1200,height-900,resizemode-4,imgsize-17396/samsung-crystal-vision-4k-tv.jpg" alt="product img">
+            </div>
+            <div class="nm">
+                <h2>Samsung TV 7</h2>
+                <label for="">Product Details</label>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit est adipisci iste accusamus voluptate nostrum ullam facilis? Itaque, accusantium quam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, voluptatem eos fugit, alias ipsum tempora cupiditate omnis quisquam minima sunt vel, fuga voluptatum?</p>
+                <h3>Price.:40,000/- </h3>
+            </div>
+            <div id="btn">
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img">
+                <img src="https://m.economictimes.com/thumb/msid-107267329,width-1200,height-900,resizemode-4,imgsize-17396/samsung-crystal-vision-4k-tv.jpg" alt="product img">
+            </div>
+            <div class="nm">
+                <h2>Samsung TV 8</h2>
+                <label for="">Product Details</label>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit est adipisci iste accusamus voluptate nostrum ullam facilis? Itaque, accusantium quam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, voluptatem eos fugit, alias ipsum tempora cupiditate omnis quisquam minima sunt vel, fuga voluptatum?</p>
+                <h3>Price.:40,000/- </h3>
+            </div>
+            <div id="btn">
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img">
+                <img src="https://m.economictimes.com/thumb/msid-107267329,width-1200,height-900,resizemode-4,imgsize-17396/samsung-crystal-vision-4k-tv.jpg" alt="product img">
+            </div>
+            <div class="nm">
+                <h2>Samsung TV 9</h2>
+                <label for="">Product Details</label>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit est adipisci iste accusamus voluptate nostrum ullam facilis? Itaque, accusantium quam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, voluptatem eos fugit, alias ipsum tempora cupiditate omnis quisquam minima sunt vel, fuga voluptatum?</p>
+                <h3>Price.:40,000/- </h3>
+            </div>
+            <div id="btn">
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>

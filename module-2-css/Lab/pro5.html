@@ -1,0 +1,160 @@
+<!-- Task: Build a responsive webpage that includes:
+• A navigation bar.
+• A content section with two columns.
+• A footer.
+Additional Requirements:
+• Use media queries to make the webpage responsive for mobile devices.
+• On smaller screens (below 768px), stack the columns vertically.
+• Adjust the font sizes and padding to improve readability on mobile -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 5</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background: #e0dede;
+
+        }
+
+        header {
+            margin: 0px;
+            padding: 0px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        ul {
+            width: 450px;
+            /* height: 35px; */
+            background-color: #9bd4cd;
+            color: #06808d;
+            border-radius: 10px;
+            text-align: center;
+            margin: 10px 10px;
+            padding: 5px;
+        }
+
+        ul>li {
+            list-style-type: none;
+            font-weight: 700;
+            display: inline-block;
+            padding: 10px;
+            font-size: 20px;
+            border-radius: 10px;
+        }
+
+        nav li:hover {
+            color: #9bd4cd;
+            background-color: #06808d;
+        }
+
+        main>p {
+            padding: 3px;
+            margin: 10px;
+            columns: 2;
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+        }
+
+        footer p {
+            margin: 10px;
+            padding: 10px;
+            width: 100vw;
+            height: 2vw;
+            text-align: center;
+            border: 2px solid coral;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Product</li>
+                <li>Feedback</li>
+                <li>About Us</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus necessitatibus, architecto similique expedita
+            aliquid distinctio maxime nobis excepturi ratione impedit ipsum magni nesciunt laborum repudiandae, aut non,
+            hic odio esse! Dolor beatae consequatur tenetur sed, velit deleniti ea nemo ut, voluptas enim temporibus
+            animi dignissimos recusandae vel veritatis suscipit magni! Enim officia nisi nihil quisquam rerum quos a,
+            tenetur molestias debitis ratione praesentium. Odio, deleniti soluta eos, illo ex quisquam libero quae
+            consequuntur optio beatae vero qui cumque rem quo voluptatibus iusto rerum cupiditate hic repellendus dicta
+            corporis porro. Quis temporibus culpa, laudantium odio recusandae explicabo iure distinctio pariatur
+            deleniti?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, dolorem hic. Molestias tempora ipsa
+            a sunt tempore corrupti vitae numquam aspernatur accusantium, impedit accusamus exercitationem aut fugiat
+            fugit magnam cupiditate! Exercitationem consequatur impedit atque sequi doloremque quod voluptatum soluta
+            laboriosam, ipsa dignissimos commodi aperiam voluptatem eveniet molestiae tempore totam tempora perspiciatis
+            fugit ut amet at rerum fugiat minus? Saepe recusandae blanditiis doloremque ducimus fuga laborum accusantium
+            dignissimos. Unde dicta sapiente explicabo at, sint natus adipisci, minima nisi, eius facere dolor. Quas
+            unde nulla aut ipsa voluptate. Fugiat perferendis ipsa esse iusto. Numquam in ipsa, dignissimos assumenda
+            velit id excepturi cumque tempora enim iste. Maiores sit magni veritatis dolore ipsam quis dolorem ea id
+            dolor, obcaecati corrupti ullam hic, iste dicta. Explicabo modi sunt, voluptates non, enim, labore facilis
+            nisi repudiandae exercitationem molestiae nihil ex ipsum nobis sapiente laborum. Nihil nostrum quae eos ea
+            alias, facilis voluptatum dignissimos nam doloremque vel in magnam rem dolorem soluta architecto iusto? Nemo
+            expedita sunt asperiores aliquid ea dolor, ipsa sequi praesentium cum nihil repellat qui porro autem
+            dignissimos laborum ab recusandae doloribus voluptatibus! Consequatur officia, quia nam consectetur veniam
+            similique at natus iste nihil! Similique ducimus autem magni cumque reprehenderit modi laudantium error
+            suscipit.
+        </p>
+        <p>consectetur quae, et possimus non at, facilis odio incidunt ipsam, sed cupiditate esse nam voluptatibus
+            aliquid? Explicabo doloremque reiciendis adipisci rem illum animi laudantium, dolorum praesentium labore
+            assumenda voluptatem minus ducimus, sequi dolore at et architecto est aut cumque distinctio. Sit perferendis
+            ex quo aperiam recusandae. Amet, iste commodi! Deserunt aperiam ipsum necessitatibus voluptatibus expedita
+            totam, soluta itaque voluptatum delectus dolore earum magnam enim, aliquid quaerat, omnis officia ipsam eum!
+            Pariatur porro laboriosam maxime non, iusto perspiciatis sint distinctio, dolorem libero at nisi aliquid
+            vero, possimus rerum nam assumenda reiciendis sequi quod. Molestias culpa molestiae vitae voluptas qui,
+            commodi explicabo consectetur natus recusandae expedita sequi odio et. Natus consequatur cum veritatis quam
+            ipsam optio odio itaque totam et, vitae aspernatur rerum dicta eius quaerat fugit quas neque, corrupti
+            adipisci tenetur corporis suscipit nesciunt vel. Alias corrupti quis illo ipsum, numquam velit repellat?
+            Incidunt perspiciatis nesciunt voluptatum dolorem aspernatur quod eveniet iusto similique esse natus,
+            repudiandae assumenda nulla non amet, repellendus obcaecati eum exercitationem deserunt quae mollitia rerum
+            optio ea vel excepturi. Tempora quos laudantium eos fugiat nihil nemo culpa dolor, voluptates reiciendis
+            qui! Libero nam, ipsa eveniet saepe omnis necessitatibus molestias modi quam hic, incidunt ipsam aliquam
+            ullam quod fuga consequuntur alias. Quisquam rem dolores consequuntur recusandae quaerat repudiandae tenetur
+            fugiat alias facilis, nesciunt voluptatum atque quibusdam qui laudantium quidem, temporibus quia dicta
+            placeat dolorum suscipit minima ex vitae! Nam minus nemo exercitationem? Sint dolore totam nobis possimus
+            voluptatum cupiditate veniam repellat nemo consequuntur inventore nesciunt repellendus, reprehenderit harum
+            commodi maiores. Odit, tempore? Voluptatibus maiores nostrum, ducimus doloribus tenetur quo eos recusandae
+            laudantium similique ea quibusdam delectus praesentium ad, dolores sapiente rem quod facere explicabo
+            asperiores quisquam eligendi quam quasi. Necessitatibus debitis nam aspernatur consequatur rem esse numquam,
+            id voluptatum tempore, est praesentium error nihil! Commodi sint voluptatum nobis distinctio obcaecati,
+            accusamus porro molestias quis nihil minus possimus nesciunt, atque molestiae. Adipisci expedita vitae ullam
+            velit ad amet repellat, corporis quis ipsa dolores earum, nulla reprehenderit error mollitia. Mollitia animi
+            id porro officiis accusamus optio, accusantium soluta fugiat rem libero dolores ad hic nihil sequi rerum
+            expedita vitae perspiciatis architecto excepturi iusto et cumque esse. Quae reiciendis totam voluptatum
+            similique accusantium fugit alias maiores explicabo iusto tempore error adipisci saepe illum id voluptas
+            delectus, tempora commodi animi porro unde necessitatibus nulla esse praesentium? A magni fugiat recusandae
+            necessitatibus, facere porro doloremque et mollitia, illo ea, culpa voluptatibus deserunt. Ex cupiditate
+            natus earum? </p>
+    </main>
+    <footer>
+        <p>this is footer content</p>
+    </footer>
+</body>
+
+</html>
