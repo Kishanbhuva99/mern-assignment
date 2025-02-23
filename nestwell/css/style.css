@@ -1,0 +1,75 @@
+:root {
+    --background-color-light-black: #0000009f;
+    /* --color-brown:#3e2b18; */
+    --background-color-white: #ffffff;
+    --color-white: #ffffff;
+    --background-color-red: #ff0000;
+    --color-red: #ff0000;
+    --background-color-black: #000000;
+    --color-black: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.header {
+    position:sticky;
+    top: 10PX;
+
+}
+
+#navbar {
+    /* width: 100vw; */
+    height: 16vh;
+    background-color: var(--background-color-light-black);
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px; */
+}
+
+#navbar ul {
+    margin: auto;
+    margin-right: 100px;
+}
+
+#navbar ul li {
+    display: inline-block;
+    list-style: none;
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: 20px;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+#navbar ul li:hover {
+    color: var(--color-red);
+}
+
+.logo {
+    margin: 5px 7rem;
+    display: inline-block;
+    /* width: 100vw; */
+}
+
+.logo>img {
+    width: 13vw;
+
+}
+
+.banner img {
+    width: 100vw;
+    height: 100vh;
+}
+
+.info {
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    background-color: var(--background-color-red);
+    color: var(--color-white);
+}

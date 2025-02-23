@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query task</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow-x: hidden;
+        }
+        header
+        {
+            text-align: center;
+            color: white;
+            height: 50px;
+            padding: 10PX;
+            border:2px solid tomato;
+            background-color: tomato;
+        }
+        main
+        {
+            width: 100%;
+            padding: 10PX;
+            margin: 50PX 0;
+            border: 2px solid black;
+        }
+        main .container
+        {
+            display: flex;
+            /* flex-wrap: wrap; */
+            /* justify-content: space-between; */
+        }
+        main .lside
+        {
+            width: 500px;
+            padding: 20px;
+            border: 2px solid cyan;
+            background-color: cyan;
+
+        }
+        main .maincon
+        {
+            height: 100%;
+            padding: 20px;
+            /* order: 1; */
+            background-color: yellowgreen;
+            border: 2px solid yellowgreen;
+        }
+        main .rside
+        {
+            width: 500px;
+            padding: 20px;
+            background-color: crimson;
+            border: 2px solid coral;
+        }
+        footer
+        {
+            padding: 10PX;
+            text-align: center;
+            height: 50PX;
+            background-color: orchid;
+            border: 2px solid orchid;
+        }
+        @media only screen and (max-width:768px) 
+        {
+            header
+        {
+            text-align: center;
+            color: white;
+            height: 50px;
+            padding: 10PX;
+            border:2px solid tomato;
+            background-color: tomato;
+        }
+        main
+        {
+            width: 100%;
+            padding: 10PX;
+            margin: 50PX 0;
+            border: 2px solid black;
+        }
+        main .container
+        {
+            display: flex;
+            flex-wrap: wrap;
+            /* justify-content: space-between; */
+        }
+        main .lside
+        {
+            width: 50%;
+            padding: 20px;
+            border: 2px solid cyan;
+            background-color: cyan;
+
+        }
+        main .maincon
+        {
+            height: 100%;
+            padding: 20px;
+            order: 1;
+
+            background-color: yellowgreen;
+            border: 2px solid yellowgreen;
+        }
+        main .rside
+        {
+            width: 50%;
+            padding: 20px;
+            background-color: crimson;
+            border: 2px solid coral;
+        }
+        footer
+        {
+            padding: 10PX;
+            text-align: center;
+            height: 50PX;
+            background-color: orchid;
+            border: 2px solid orchid;
+        }
+            
+        }
+        @media only screen and (max-width:340px) 
+        {
+            header
+        {
+            text-align: center;
+            color: white;
+            height: 50px;
+            padding: 10PX;
+            border:2px solid tomato;
+            background-color: tomato;
+        }
+        main
+        {
+            width: 100%;
+            padding: 10PX;
+            margin: 50PX 0;
+            border: 2px solid black;
+        }
+        main .container
+        {
+            display: block;
+            /* flex-wrap: wrap; */
+            /* justify-content: space-between; */
+        }
+        main .lside
+        {
+            width: 100%;
+            padding: 20px;
+            color: white;
+
+            border: 2px solid cyan;
+            background-color: cyan;
+
+        }
+        main .maincon
+        {
+            height: 100%;
+            padding: 20px;
+            order: 1;
+            color: white;
+
+            text-align: justify;
+            background-color: yellowgreen;
+            border: 2px solid yellowgreen;
+        }
+        main .rside
+        {
+            width: 100%;
+            color: white;
+
+            padding: 20px;
+            background-color: crimson;
+            border: 2px solid coral;
+        }
+        footer
+        {
+            /* width: 300px; */
+            padding: 10PX;
+            text-align: center;
+            height: 50PX;
+            color: white;
+
+            background-color: orchid;
+            border: 2px solid orchid;
+        }
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>media Query task</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="lside">
+                <ul>
+                    <li>left list1</li>
+                    <li>left list2</li>
+                    <li>left list3</li>
+                    <li>left list4</li>
+                </ul>
+            </div>
+            <div class="maincon">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa officia quaerat accusantium voluptates fugit, quasi eligendi repudiandae repellendus placeat atque error eveniet sequi voluptatem vitae unde sint reiciendis quo ullam pariatur! Laborum accusantium obcaecati illum natus rerum eaque sit ipsam quidem facere vero dicta inventore explicabo enim distinctio minus, praesentium aperiam unde excepturi placeat dolore, deleniti fugit fuga a id! Laboriosam totam nobis sint explicabo aut ipsam, qui repellendus perferendis doloremque fugiat, ipsum ipsa odit eius modi. Id, nesciunt deserunt ipsam, eaque debitis ad animi placeat ipsum esse architecto, facilis perspiciatis similique consequuntur commodi corrupti. Velit earum ducimus labore.</p>
+            </div>
+            <div class="rside">
+                <ul>
+                    <li>right list1</li>
+                    <li>right list2</li>
+                    <li>right list3</li>
+                    <li>right list4</li>
+                    <li>right list5</li>
+                </ul>
+            </div>
+        </div>
+        </main>
+        <footer>
+            <h2>this websire is made by kishan bhuva</h2>
+        </footer>
+</body>
+</html>
