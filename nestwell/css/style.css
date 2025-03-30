@@ -13,26 +13,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
-.header {
-    position:sticky;
-    top: 10PX;
 
+.header {
+    width: 100%;
+    height: 150px; /* Make sure the height of the header is sufficient */
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 #navbar {
-    /* width: 100vw; */
+    width: 100%;
     height: 16vh;
     background-color: var(--background-color-light-black);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     /* padding: 10px; */
 }
 
 #navbar ul {
-    margin: auto;
     margin-right: 100px;
 }
 
@@ -48,12 +51,12 @@
 
 #navbar ul li:hover {
     color: var(--color-red);
+    font-weight: 500;
 }
 
 .logo {
     margin: 5px 7rem;
     display: inline-block;
-    /* width: 100vw; */
 }
 
 .logo>img {
@@ -62,14 +65,164 @@
 }
 
 .banner img {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
+.products
+{
+    position: relative;
+}
 
-.info {
-    display: inline-block;
-    width: 400px;
+.products .info {
+    position: absolute;
+    /* top: -3%; */
+    margin-top: -2%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 360px;
     height: 500px;
     background-color: var(--background-color-red);
+    color: var(--color-white);
+    padding: 30px;
+}
+.info span
+{
+    font-size: 30px;
+}
+.info p
+{
+    line-height: 30px;
+    font-size: 20px;
+    padding-right: 20px;
+    /* margin: 10px; */
+    text-align: justify;
+}
+.info .read-more-btn
+{
+    width: 150px;
+    height: 40px;
+    background-color: var(--background-color-red);
+    border: 1px solid var(--color-white);
+    color: var(--color-white);
+}
+.product-img
+{
+    /* position: relative; */
+    display: flex;
+    gap: 20px;
+    width: 50%;
+    height: 400px;
+    margin-left: 40%;
+}
+.product1 img
+{
+    width: 100%;
+    height: 100%;
+}
+.product1
+{
+    position: relative;
+}
+.product1 span
+{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: var(--color-white);
+    font-size: 25px;
+    width: 90%;
+    border-radius: 5px;
+    text-transform: uppercase;
+    /* letter-spacing: 2px; */
+    padding: 5px 10px;
+    /* padding:auto; */
+    text-align: center;
+    /* height: 50px; */
+    background-color: rgba(0, 0, 0, 0.347);
+}
+.highlits
+{
+    width: 100%;
+    /* border: 1px solid; */
+    margin-top: 200PX;
+    /* padding: 20px; */
+}
+.highlits .highlits-con
+{
+
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 100PX;
+
+}
+.leftcon ,.rightcon
+{
+    /* border: 1px solid green; */
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+    /* padding: 20px; */
+}
+.leftcon img ,.rightcon img
+{
+    width: 100%;
+}
+.leftcon p , .rightcon p
+{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+.chefimg
+{
+    text-align: center;
+    width: 30%;
+    display: inline-block;
+/* border: 1px solid aqua; */
+}
+.brochursec
+{
+    color: var(--color-white);
+    margin-top: 100px;
+    border: 1px solid;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap-reverse; */
+    /* height: 150%; */
+    background-image: url(/nestwell/images/brochurebg.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+.brochursec .brochurimg
+{
+    width: 40%;
+    margin: 0px 100px;
+    /* height: 100%; */
+}
+.brochurimg img
+{
+    margin: 40px;
+    /* height: 50   %; */
+    width: 30%;
+}
+.brochurdown
+{
+    width: 30%;
+}
+.brochurdown button
+{
+    width: 10vw;
+    height: 5vh;
+    background-color: transparent;
+    border: 1px solid var(--color-white);
     color: var(--color-white);
 }
