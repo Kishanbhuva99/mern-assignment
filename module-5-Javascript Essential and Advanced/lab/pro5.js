@@ -1,4 +1,5 @@
 let days=5;
+// alert("is this good")
 
 switch (days) {
     case 1:

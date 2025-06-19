@@ -1,0 +1,9 @@
+index.html always stored in public folder
+
+Index.js must be in src folder and it is default component on app
+
+App.js must be in src folder and it is user define component on app (all user define component's name must be strat with capital latters)
+
+index.html call in Index.js via VDOM (virtual dom)
+
+all component made by user call in Index.js like App.js

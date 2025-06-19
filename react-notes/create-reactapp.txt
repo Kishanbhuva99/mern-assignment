@@ -1,0 +1,39 @@
+1 ---- how create react app with npx
+
+npx create-react-app (app name) must be in all small case
+cd appname (go to inside app folder)
+## go back in cmd use cd ..
+
+
+how to start a server of react js
+	npm start
+	http://localhost:3000
+
+
+2 ---- how create react app with vite
+
+npm create vite@latest (app name) must be in all small case
+Select a framework:
+|  React
+|
+o  Select a variant:
+|  JavaScript
+
+cd appname (go to inside app folder)
+npm install (adds node_modules to app) without this app won't run
+
+
+how to start a server of react js app + vite
+
+  npm run dev
+  Local:   http://localhost:5173/
+
+	then copy and paste above link in browser
+
+3 ---- how create react app with npm
+
+	this method is similar as npx just replace npx with npm to create app
+	currently npm method has issue in react version 15 and above so use npx or vite
+
+
+
