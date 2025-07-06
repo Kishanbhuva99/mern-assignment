@@ -1,3 +1,9 @@
+use this in power shell as administrator to policy on powershell to work node js 
+
+-- Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+
+
 1 ---- how create react app with npx
 
 npx create-react-app (app name) must be in all small case
@@ -35,5 +41,18 @@ how to start a server of react js app + vite
 	this method is similar as npx just replace npx with npm to create app
 	currently npm method has issue in react version 15 and above so use npx or vite
 
+how to add external libraries like bootstrap
+
+
+	-- npm install react-bootstrap bootstrap bootstrap-icons
+	
+
+	then import it in file where you want to use
+	-- import 'bootstrap/dist/js/bootstrap.min.js';
+
+	
+	also you have to import components of bootstrap on your component.jsx files
+	this is standard way in react
+	-- import {container , card ,row} from 'react-bootstrap';
 
 

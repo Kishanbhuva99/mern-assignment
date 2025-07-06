@@ -1,0 +1,7 @@
+gpt searches--
+
+i m creating cosmetic website i completed basic layout like sidebar and topbar which i copy paste in all pages like add/delete/update product, add/delete/update category, register new admin etc.. so i have to make only mains content of all pages first give me main content for register new admin where i can watch all admins ,remove any admin ,add new admin with full or half authority
+
+
+
+2- i want to create add new product page , input list :- product name, product price ,discount percentage, product color(can select from previously added color by checkbox and also add new color), product type(can select from dropdown and also add new type)  quantity with option gm or ml, product category dropdown , product commodity, company details like name and address (street/plot no.  ,city ,state and country),product expiry date(input type text), ingredients(can select from checkbox and also add new ingredients) ,product description. notes:- this is cosmetic site  so image of product is stored separetly along side each colors   so each color has its own images and easy to store  also add remove button with colors so admin color delete color and its images before uploading ,admin can add new company or select from previously added company by dropdown
