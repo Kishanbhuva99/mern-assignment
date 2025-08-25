@@ -1,4 +1,11 @@
-how to add external libraries like bootstrap
+inline css -  style{{"width":"50%","padding":"20px","margin":"auto"}}
+
+internal css - use direct on head in index.html
+
+external css - create style.css in src/assest folder and import where you needed
+
+
+bootstrap install---
 
 
 	-- npm install react-bootstrap bootstrap bootstrap-icons
@@ -14,10 +21,21 @@ how to add external libraries like bootstrap
 
 
 
+custom installation with tailwind and react router dom--
+
+	--npm i react-router-dom tailwindcss @tailwindcss/vite
 
 
-inline css -  style{{"width":"50%","padding":"20px","margin":"auto"}}
+add this 2 line in vite.config.js 
 
-internal css - use direct on head in index.html
+	import { defineConfig } from 'vite'
+-->	import tailwindcss from '@tailwindcss/vite'
+	export default defineConfig({
+  	plugins: [
+    -->		tailwindcss(),
+  		],
+	})
 
-external css - create style.css in src/assest folder and import where you needed
+import it to your main css which imported in all pages
+
+	-- @import "tailwindcss";

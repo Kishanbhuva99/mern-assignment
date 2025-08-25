@@ -5,3 +5,18 @@ i m creating cosmetic website i completed basic layout like sidebar and topbar w
 
 
 2- i want to create add new product page , input list :- product name, product price ,discount percentage, product color(can select from previously added color by checkbox and also add new color), product type(can select from dropdown and also add new type)  quantity with option gm or ml, product category dropdown , product commodity, company details like name and address (street/plot no.  ,city ,state and country),product expiry date(input type text), ingredients(can select from checkbox and also add new ingredients) ,product description. notes:- this is cosmetic site  so image of product is stored separetly along side each colors   so each color has its own images and easy to store  also add remove button with colors so admin color delete color and its images before uploading ,admin can add new company or select from previously added company by dropdown
+
+
+
+3- 20-07-25
+i want to create react app+vite but i want folder structure. details :- user side - page like home , product ,category ,cart ,log in , sign up components like header ,navbar ,footer ,card 1 ,card 2 now admin side - page like dash board , log in , add new admin , add product , manage product , add category componets like sidebar ,top bar 
+
+how to connect all pages to layouts and layouts to main.jsx
+what is outlet 
+why we dont declare route in main jsx 
+what is use of app.jsx and main.jsx
+why you used index instead of path in some route
+
+
+
+4- 
