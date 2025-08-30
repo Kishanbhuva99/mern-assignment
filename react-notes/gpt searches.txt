@@ -19,4 +19,27 @@ why you used index instead of path in some route
 
 
 
-4- 
+4- lakme project search 26-8-2025
+
+my sister want to add a project in her resume project named lakme-clone bcoz it clone of https://www.lakmeindia.com/ i try to make most of similar but changes some feature as my need and knowledge (bcoz i m not pro level developer i m just learning) , i created frontend using html ,css , bootstrap and java script and backend coding is still running by my sister in python django, she will connect with database. this project is about lakme cosmetic user can sign in - sign up(for verification we send otp on phone number), view products , search product , navigate using categories menu in navbar , add to bag , order the product , view all orders ,view status of any order, cancel order.  now admin side :- all admin can login , view dashboard , admin can update/add/delete products or category ,view orders , only main authorized admin can add/delete other admin or delete any product . currently payment method is cash on delivery but we will plan to add online/other payment method later. plz how to add this product in my sisters resume she is backend developer in python Django
+
+
+Lakme Clone (In Progress)
+
+E-commerce Web App | Python, Django, HTML, CSS, Bootstrap, JavaScript
+
+Developing a cosmetics e-commerce site inspired by LakmeIndia.com with full-stack features. Leading backend development using Django.
+
+Implemented user authentication with OTP-based phone verification.
+
+Built Django models for users, products, and orders; set up admin role management.
+
+Created backend logic for product browsing, cart, and order workflows (in progress).
+
+Designed role-based admin dashboard for managing products and users (ongoing).
+
+Integrated frontend/backend in collaboration with UI developer.
+
+Current payment method: Cash on Delivery; online payments planned.
+
+Tech Stack: Python, Django, SQLite/PostgreSQL, HTML, CSS, Bootstrap, JavaScript.
